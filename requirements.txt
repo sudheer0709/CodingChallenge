@@ -1,0 +1,22 @@
+MySQl:
+I have used MySQL to load the data from csv sheet into DB. The necessary configuration is available in classpath resources/application.properties.Please replace the url,username and 
+password with your own credentials. Create a sample DB named pharmacy_DB before running the application.
+If MYSQL is not available,please configure the application.properties file accordingly and load the necessary jar files in the pom.xml
+
+IDE: I have used IntelliJ IDEA for this project by creating a maven project with archetype as org.apache.maven.archetypes:maven-archetype-quickstart and add all the files which are available
+in github reposiotry. It is much similar for any other IDE too.
+
+sample data sheet: Please add the sample csv file in the classpath src/main/resources/{datasheet}.Please change the name of your csv sheet accordingly in the savePhamracyDetails() of
+PharmacyServiceImplementation class.
+
+POM.xml: Add all the necessary jar files in the POM file. I have mentioned all the required jars in my file itself, once it is loaded, please import them into the project. 
+
+Project Folder Structure: create 2 folder under src/main i.e java and resources. 
+java:crated a root package org.example and inside it I have created Application.java class and all other packages like controller,service,repository,exception.
+resources:application.properties file and csv file is loaded in this folder.
+
+Running the project: Please run the main method or Application.java class
+
+
+
+
